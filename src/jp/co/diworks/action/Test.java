@@ -16,13 +16,22 @@ public class Test {
 		hanako.name = "鈴木花子";
 		hanako.age = 16;
 		
+		//演習④
+		Person number = new Person();
+		number.phoneNumber = "0312341234";
+		number.address = "abc.123@mai.com";
+		
+		
 		System.out.println(taro.name);
 		System.out.println(taro.age);
-		
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
+		
+		//演習④
+		System.out.println(number.phoneNumber);
+		System.out.println(number.address);
 	}
 
 }
