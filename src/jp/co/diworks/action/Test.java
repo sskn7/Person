@@ -32,6 +32,11 @@ public class Test {
 		//演習④
 		System.out.println(number.phoneNumber);
 		System.out.println(number.address);
+		
+		//演習⑥
+		taro.talk();
+		taro.walk();
+		taro.run();
 	}
 
 }
