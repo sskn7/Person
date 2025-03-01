@@ -23,3 +23,5 @@ public class Person {
 		System.out.println(this.name + "が走る");
 	}
 }
+
+

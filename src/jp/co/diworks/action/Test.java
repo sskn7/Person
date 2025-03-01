@@ -37,6 +37,23 @@ public class Test {
 		taro.talk();
 		taro.walk();
 		taro.run();
+		
+		//演習⑧
+		Robot aibo = new Robot();
+		aibo.name = "アイボ";
+		
+		Robot asimo = new Robot();
+		asimo.name = "アシモ";
+		
+		Robot pepper = new Robot();
+		pepper.name = "ペッパー";
+		
+		System.out.println(aibo.name);
+		System.out.println(asimo.name);
+		System.out.println(pepper.name);
+		
+		
+		
 	}
 
 }
